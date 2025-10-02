@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+*{
+  font-family:"Outfit";
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+@plugin "daisyui" {
+  themes: 
+    light --default,
+    dark --prefersdark,
+    cupcake,
+    bumblebee,
+    emerald,
+    forest,
+    dracula,
+    retro,
+    aqua,
+    corporate,
+    synthwave,
+    cyberpunk,
+    valentine,
+    halloween,
+    garden,
+    fantasy,
+    wireframe,
+    black,
+    luxury,
+    dracula-variant,
+    pastle,
+    night,
+    winter,
+    retro-variant,
+    coffee,
+    candy,
+    lemonade,
+    autumn,
+    beach,
+    sunrise,
+    dusk,
+    mermaid,
+    ocean,
+    space;
+}
